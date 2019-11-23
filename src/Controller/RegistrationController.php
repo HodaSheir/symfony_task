@@ -48,4 +48,7 @@ class RegistrationController extends AbstractController
         return $this->render('registration/login.html.twig');
     }
     
+    public function logout(){
+        return $this->render('registration/login.html.twig');
+    }
 }
